@@ -1,0 +1,30 @@
+{
+    "name": "iashchak/xhamster-video-processor",
+    "description": "Пакет для обработки и управления видео контентом",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Имя Автора",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": "~8.2",
+        "illuminate/support": "^10.10",
+        "pbmedia/laravel-ffmpeg": "8.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Iashchak\\XhamsterVideoProcessor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iashchak\\XhamsterVideoProcessor\\Providers\\XhamsterVideoProcessorServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
