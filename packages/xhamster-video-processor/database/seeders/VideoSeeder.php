@@ -2,8 +2,12 @@
 
 namespace Database\Seeders;
 
+use Database\Factories\VideoFactory;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 
 class VideoSeeder extends Seeder
 {
@@ -12,6 +16,6 @@ class VideoSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        VideoFactory::new()->count(10)->create();
     }
 }
