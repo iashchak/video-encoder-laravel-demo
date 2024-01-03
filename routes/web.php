@@ -17,7 +17,6 @@ use Illuminate\Support\Facades\Log;
 */
 
 Route::get('/', function () {
-    $instance = Video::withData('title', 'description', 'path');
-    $instance->save();
+    Video::create(['title' => 'MYTITLE', 'description' => 'DESC', 'sourceFile' => 'cat.webm'])->save();
     return view('welcome');
 });

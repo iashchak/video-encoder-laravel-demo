@@ -19,7 +19,7 @@ class VideoFactory extends Factory
     {
         return [
             'title' => fake()->name(),
-            'description' => fake()->unique()->safeEmail(),
+            'description' => fake()->text(),
             'path' => fake()->unique()->safeUrl(),
         ];
     }
