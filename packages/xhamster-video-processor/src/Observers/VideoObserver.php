@@ -15,6 +15,6 @@ class VideoObserver {
     public function created(Video $video)
     {
         // When a video is created, we need to encode it by dispatching a job
-        ProcessVideo::dispatch($video)->onQueue('converting');
+        ProcessVideo::sendToProcessing($video);
     }
 }
