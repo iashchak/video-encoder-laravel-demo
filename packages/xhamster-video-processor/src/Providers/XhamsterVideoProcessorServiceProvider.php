@@ -13,6 +13,7 @@ class XhamsterVideoProcessorServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../../configs/lib.php' => config_path('lib.php'),
+            __DIR__ . '/../../configs/laravel-ffmpeg.php' => config_path('laravel-ffmpeg.php'),
         ]);
 
         $this->loadMigrationsFrom(__DIR__ . '/../../database/migrations');

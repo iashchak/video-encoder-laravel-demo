@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b373ec64a3cfaf1a94826e1fc8f7240d",
+    "content-hash": "0ec26d3c43961f6566c17bafef9341c1",
     "packages": [
         {
             "name": "brick/math",
@@ -1098,11 +1098,11 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/xhamster-video-processor",
-                "reference": "dd1c455b229b692da2ab85fe692bf5f2b2794c1c"
+                "reference": "54709a11be574378ec937c4e9454d2a455d55a95"
             },
             "require": {
                 "illuminate/support": "^10.10",
-                "pbmedia/laravel-ffmpeg": "8.3.0",
+                "pbmedia/laravel-ffmpeg": "^8.4",
                 "php": "~8.2"
             },
             "type": "library",
@@ -2480,32 +2480,32 @@
         },
         {
             "name": "pbmedia/laravel-ffmpeg",
-            "version": "8.3.0",
+            "version": "8.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/protonemedia/laravel-ffmpeg.git",
-                "reference": "820e7f1290918233a59d85f25bc78796dc3f57bb"
+                "reference": "b16fd89fab3a37727711d3abc3e89229e3c4f14d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/protonemedia/laravel-ffmpeg/zipball/820e7f1290918233a59d85f25bc78796dc3f57bb",
-                "reference": "820e7f1290918233a59d85f25bc78796dc3f57bb",
+                "url": "https://api.github.com/repos/protonemedia/laravel-ffmpeg/zipball/b16fd89fab3a37727711d3abc3e89229e3c4f14d",
+                "reference": "b16fd89fab3a37727711d3abc3e89229e3c4f14d",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "^9.0|^10.0",
-                "php": "^8.1|^8.2",
-                "php-ffmpeg/php-ffmpeg": "^1.1",
-                "ramsey/collection": "^1.0|^2.0"
+                "illuminate/contracts": "^10.0",
+                "php": "^8.1|^8.2|^8.3",
+                "php-ffmpeg/php-ffmpeg": "^1.2",
+                "ramsey/collection": "^2.0"
             },
             "require-dev": {
                 "league/flysystem-memory": "^3.10",
                 "mockery/mockery": "^1.4.4",
                 "nesbot/carbon": "^2.66",
-                "orchestra/testbench": "^7.0|^8.0",
-                "phpunit/phpunit": "^9.5.10",
+                "orchestra/testbench": "^8.0",
+                "phpunit/phpunit": "^10.4",
                 "spatie/image": "^2.2",
-                "spatie/phpunit-snapshot-assertions": "^4.2"
+                "spatie/phpunit-snapshot-assertions": "^5.0"
             },
             "type": "library",
             "extra": {
@@ -2546,7 +2546,7 @@
             ],
             "support": {
                 "issues": "https://github.com/protonemedia/laravel-ffmpeg/issues",
-                "source": "https://github.com/protonemedia/laravel-ffmpeg/tree/8.3.0"
+                "source": "https://github.com/protonemedia/laravel-ffmpeg/tree/8.4.0"
             },
             "funding": [
                 {
@@ -2554,7 +2554,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-15T10:10:46+00:00"
+            "time": "2024-01-02T23:13:28+00:00"
         },
         {
             "name": "php-ffmpeg/php-ffmpeg",
@@ -6323,16 +6323,16 @@
     "packages-dev": [
         {
             "name": "fakerphp/faker",
-            "version": "v1.23.0",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/FakerPHP/Faker.git",
-                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01"
+                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
-                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/bfb4fe148adbf78eff521199619b93a52ae3554b",
+                "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b",
                 "shasum": ""
             },
             "require": {
@@ -6358,11 +6358,6 @@
                 "ext-mbstring": "Required for multibyte Unicode string functionality."
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "v1.21-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Faker\\": "src/Faker/"
@@ -6385,9 +6380,9 @@
             ],
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
-                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.0"
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.1"
             },
-            "time": "2023-06-12T08:44:38+00:00"
+            "time": "2024-01-02T13:46:09+00:00"
         },
         {
             "name": "filp/whoops",

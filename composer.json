@@ -7,10 +7,10 @@
     "require": {
         "php": "~8.2",
         "guzzlehttp/guzzle": "^7.2",
+        "iashchak/xhamster-video-processor": "dev-main",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8",
-        "iashchak/xhamster-video-processor": "dev-main"
+        "laravel/tinker": "^2.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -50,10 +50,7 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": [],
-            "providers": [
-                "Iashchak\\XhamsterVideoProcessor\\XhamsterVideoProcessorServiceProvider"
-            ]
+            "dont-discover": []
         }
     },
     "config": {
